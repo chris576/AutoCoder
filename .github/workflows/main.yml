@@ -1,5 +1,5 @@
-name: Hello World Workflow 
 on: [push]
+name: Hello World Workflow 
 jobs: 
   job_name: 
     runs-on: ubuntu-latest
