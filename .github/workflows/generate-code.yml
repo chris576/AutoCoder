@@ -1,9 +1,4 @@
-on: 
-  issues: 
-    types: 
-      - opened
-      - reopened
-      - labeled
+on: [issues]
 jobs: 
   auto-coder:
     runs-on: ubuntu-latest
