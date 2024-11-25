@@ -3,6 +3,7 @@ on:
     types: 
       - opened
       - reopened
+      - labeled
 jobs: 
   auto-coder:
     runs-on: ubuntu-latest
