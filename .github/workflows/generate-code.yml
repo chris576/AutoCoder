@@ -1,4 +1,7 @@
-on: [issues]
+name: Autocoder Bot Workflow
+on: 
+  issues:    
+    types: [opened, reopened, labeled]
 jobs: 
   auto-coder:
     runs-on: ubuntu-latest
