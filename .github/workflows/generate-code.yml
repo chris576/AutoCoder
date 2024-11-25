@@ -6,6 +6,8 @@ jobs:
   auto-coder:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout Repository        
+        uses: actions/checkout@v3
       - name: Check if issue has "autocoder-bot" label
         id: check_label
         run: |
